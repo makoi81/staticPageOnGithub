@@ -1,0 +1,113 @@
+body{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  background: linear-gradient(white,#7CB9E8, white);
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+  width: 100vw;
+  /*height: 100vh;*/
+  max-width: 100%;
+  /*background: radial-gradient(red, yellow, green);*/
+  font-family: 'Roboto', sans-serif;
+}
+.section1{
+   /*background-color: blue;*/
+
+}
+.navbar-inverse{
+  font-size: 1.5em;
+  height: 80px;
+  display: flex;
+  width: 100vw;
+  max-width: 100%;
+  justify-content: flex-end;
+}
+.navbar-nav>li>a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+  margin: 10px;
+  padding: 10px;
+ 
+}
+.picture{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  font-size: 1.5em;
+  font-family: 'Fascinate Inline', cursive;
+  font-family: 'Shrikhand', cursive;
+  border: 5px solid white;
+  border-radius: 10px;
+  margin-right: 40px; 
+  /*margin: 20px -30px
+  width: 90vw;*/
+
+}
+.profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.findMe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding:10px;
+  border: none;
+  color: black;
+}
+.section2{
+  width: 90vw;
+  height: 100vh;
+}
+.sectionAabout{
+  display: flex;
+  /*justify-content:space-around;*/
+  flex-direction: row;
+  justify-content:space-between;
+  /*width: 100vw;*/
+  height: 100vh;
+}
+.skills{
+  width: 20vw;
+  border: 5px solid white;
+  border-radius: 10px 0px 10px 10px;
+  padding:10px 20px;
+}
+.projects{
+  
+  padding: 10px 20px;
+  border: 5px solid white;
+  /*border-radius: 15px*/
+}
+.contact{
+  display: flex;
+  /*align-content: center;*/
+  flex-direction: column;
+  /*justify-content: center;*/
+  border: 5px solid white;
+  border-radius: 0px 10px 10px 0px;
+  padding: 10px 15px;
+}
+.icon{
+  text-align: center;
+}
+.footbar{
+  text-align: center;
+  height: 10vh;
+  padding: 20px;
+  margin: auto;
+  color: white;
+  background-color: Black;
+}
